@@ -1,0 +1,149 @@
+body{
+    background-color: rgba(158, 240, 240, 0.676);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sidebar{
+    width: 300px;
+    height: 680px;
+    background-color: rgba(255, 255, 255, 0.623);
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    color: gray;
+    align-items: center;
+    margin: 15px;
+}
+
+#name{
+    font-weight: bolder;
+    padding-top: 5px;
+}
+
+#membership{
+    font-size: 14px;
+}
+
+#sidebar img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+
+#category{
+    color: rgb(22, 132, 132);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    overflow: hidden;
+    padding-top: 80px;
+}
+
+.option{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-left: 80px;
+}
+
+.option span{
+    font-weight: bolder;
+}
+
+.material-symbols-outlined{
+    height: 50px;
+}
+
+#poster{
+    height: 100px;
+    width: 270px;
+    background: linear-gradient(90deg,rgba(158, 240, 240, 0.676), rgba(54, 172, 172, 0.575));
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#poster span{
+    padding-left: 7px;
+}
+
+#poster img{
+    padding-right: 7px;
+}
+
+#main{
+    display: flex;
+}
+
+#heading{
+    font-weight: bolder;
+    font-size: 35px;
+    padding-left: 50px;
+    padding-top: 35px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#bar{
+    height: 23px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 47px;
+    margin-top: -20px;
+}
+
+.games{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; 
+}
+
+.gamelist{
+    height: 140px;
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 15px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.gamelist img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.gamename{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.689);
+    margin-top: -10px;
+}
+
+.ps{
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.689);
+    margin-top: -10px;
+}
+
+h4{
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.689);
+}
+
+.gamebar{
+    height: 23px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: rgba(66, 217, 217, 0.575);
+    margin-top: -10px;
+}
